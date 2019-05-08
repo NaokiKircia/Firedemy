@@ -75,4 +75,19 @@ def draw(canvas):
     pygame.draw.line(canvas, WHITE, [WIDTH - PAD_WIDTH, 0], [WIDTH - PAD_WIDTH, HEIGHT], 1)
     pygame.draw.circle(canvas, WHITE, [WIDTH // 2, HEIGHT // 2], 70, 1)
 
-    #update paddle's vertical position, kep paddle on the screen
+    #update paddle's vertical position, keep paddle on the screen
+    if paddle1_pos[1] > HALF_PAD_HEIGHT and paddle1_pos[1] < HEIGHT - HALF_PAD_HEIGHT:
+        paddle1_pos[1] += paddle1_vel
+    elif paddle1_pos[1] == HALF_PAD_HEIGHT and paddle1_vel > 0:
+        paddle1_pos[1] += paddle1_vel
+    elif paddle1_pos[1] == HEIGHT - HALF_PAD_HEIGHT and paddle1_vel < 0:
+        paddle1_pos[1] += paddle1_vel
+
+    if paddle2_pos[1] > HALF_PAD_HEIGHT and paddle2_pos[1] < HEIGHT - HALF_PAD_HEIGHT:
+        paddle2_pos[1] += paddle2_vel
+    elif paddle2_pos[1] == HALF_PAD_HEIGHT and paddle2_vel > 0:
+        paddle2_pos[1] += paddle2_vel
+    elif paddle2_pos[1] == HEIGHT - HALF_PAD_HEIGHT and paddle2_vel <0:
+        paddle2_pos[1] += paddle2_vel
+
+    #update ball
