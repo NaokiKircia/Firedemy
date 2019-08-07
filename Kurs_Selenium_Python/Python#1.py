@@ -62,7 +62,16 @@ Notatki do kursu
 # rzeczy("lampa", "koc", "kanapa", "szafa")
 
 """
-5) Kwargs
+5) Kwargs- dziala na zasadzie slownika: klusz:vartosc
 """
-dsak
-print("sdajdo")
+# def dziennik(klasa, **kwargs):
+#     print("Klasa " + klasa)
+#     for nazwisko in kwargs.keys():
+#         print(nazwisko)
+#     print(kwargs.get("Kowalski"))
+#
+# dziennik("3c", Kowalski = "1", Nowak = "2", Wisniewski = "3")
+
+"""
+6) 
+"""
