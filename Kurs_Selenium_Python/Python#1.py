@@ -53,11 +53,16 @@ Notatki do kursu
 """
 4) Args
 """
+# def rzeczy(pierwsza_rzecz, *args):
+#     print(pierwsza_rzecz)
+#     print(args[0])
+#     for arg in args:
+#         print(arg)
+#
+# rzeczy("lampa", "koc", "kanapa", "szafa")
 
-def rzeczy(pierwsza_rzecz, *args):
-    print(pierwsza_rzecz)
-    print(args[0])
-    for arg in args:
-        print(arg)
-
-rzeczy("lampa", "koc", "kanapa", "szafa")
+"""
+5) Kwargs
+"""
+dsak
+print("sdajdo")
