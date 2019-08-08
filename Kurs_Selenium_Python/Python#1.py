@@ -62,7 +62,8 @@ Notatki do kursu
 # rzeczy("lampa", "koc", "kanapa", "szafa")
 
 """
-5) Kwargs- dziala na zasadzie slownika: klusz:vartosc
+5) Kwargs
+- dziala na zasadzie slownika: klusz:vartosc
 """
 # def dziennik(klasa, **kwargs):
 #     print("Klasa " + klasa)
@@ -73,5 +74,34 @@ Notatki do kursu
 # dziennik("3c", Kowalski = "1", Nowak = "2", Wisniewski = "3")
 
 """
-6) 
+6) Zbiory
+- add dziala tylko na unikalnych elementach
 """
+# pierwszy_zbior = {"Warszawa", "Kieflce", "Poznan", "Lodz"}
+# drugi_zbior = {"Warszawa"}
+#
+# pierwszy_zbior.add("Katowice")
+# print(pierwszy_zbior)
+# pierwszy_zbior.add("Kielce")
+# print(pierwszy_zbior)
+# print("operacje na zbiorach")
+# print(pierwszy_zbior - drugi_zbior)
+# print(pierwszy_zbior | drugi_zbior)
+# print(pierwszy_zbior & drugi_zbior)
+# print(pierwszy_zbior ^ drugi_zbior)
+
+"""
+6) Wyjatki
+"""
+while True:
+    try:
+        print("Podaj pierwsza liczbe ")
+        pierwsza_liczba = int(input())
+        print("Podaj druga liczbe ")
+        druga_liczba = int(input())
+        print(pierwsza_liczba + druga_liczba)
+        break
+    except ValueError:
+        print("Podales bledna wartosc")
+        print("Sprobuj jeszcze raz")
+        continue
