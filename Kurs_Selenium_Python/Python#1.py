@@ -93,19 +93,71 @@ Notatki do kursu
 """
 6) Wyjatki
 """
-while True:
-    try:
-        print("Podaj pierwsza liczbe ")
-        pierwsza_liczba = int(input())
-        print("Podaj druga liczbe ")
-        druga_liczba = int(input())
-        print(pierwsza_liczba + druga_liczba)
-        break
-    except ValueError:
-        print("Podales bledna wartosc")
-        print("Sprobuj jeszcze raz")
-        continue
+# while True:
+#     try:
+#         print("Podaj pierwsza liczbe ")
+#         pierwsza_liczba = int(input())
+#         print("Podaj druga liczbe ")
+#         druga_liczba = int(input())
+#         print(pierwsza_liczba + druga_liczba)
+#         break
+#     except ValueError:
+#         print("Podales bledna wartosc")
+#         print("Sprobuj jeszcze raz")
+#         continue
 
 """
-7) Debugowanie kodu
+7) Czytanie pliku
 """
+file = open("plik_txt_#1.txt")
+zawartosc = file.read()
+print(zawartosc)
+file.close()
+
+file = open("plik_txt_#1.txt")
+zawartosc = file.readlines()
+print(zawartosc)
+file.close()
+
+file = open("plik_txt_#1.txt")
+zawartosc = file.readline()
+print(zawartosc)
+file.close()
+
+file = open("plik_txt_#1.txt")
+for line in file:
+    print(line)
+
+"""
+8) Zapisywanie do pliku
+"""
+file = open("zapis_do_pliku_#1.txt", "w")    #w-write
+file.write("To jest jakis tekst")
+file.close()
+
+file = open("zapis_do_pliku_#1.txt", "w")
+file.write("Calkiem inny tekst")
+file.close()
+
+file = open("zapis_do_pliku_#1.txt", "a")   #a-append
+file.write(" Dodaj tekst do istniejacego")
+file.close()
+
+"""
+9) Klasy
+"""
+
+class Pies:
+    gatunek = 'pies domowy'
+
+    def __init__(self, rasa, imie, wiek):
+        self.rasa = rasa
+        self.imie = imie
+        self.wiek = wiek
+
+reksio = Pies('kundelek', 'Reksio', 2)
+print(reksio.wiek)
+print(reksio.imie)
+print(reksio.rasa)
+print(reksio.gatunek)
+print(Pies.gatunek)
