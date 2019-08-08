@@ -105,3 +105,7 @@ while True:
         print("Podales bledna wartosc")
         print("Sprobuj jeszcze raz")
         continue
+
+"""
+7) Debugowanie kodu
+"""
