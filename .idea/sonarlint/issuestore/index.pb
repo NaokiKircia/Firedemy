@@ -1,13 +1,19 @@
 
 7
 pong.py,2\0\2055736e4b5aba2927c0cd73e5e0a19a5f8082e5
-P
- Kurs_Selenium_Python/Python#1.py,9\b\9b6d1fe7e15a5367018b129e37f264fa075e82bc
-T
-$Kurs_Selenium_Python/plik_txt_#1.txt,4\f\4f02dccd02ce6855dd274000577f5a07ae5076ce
 Q
 !.idea/dictionaries/Aleksandra.xml,0\6\06f6fb9bbb5fa30713e0082e9285bc637fb3e271
 \
 ,.idea/inspectionProfiles/Project_Default.xml,4\9\496a238a6afa168dbaf6efd37bb459331589579c
-Z
-*Kurs_Selenium_Python/zapis_do_pliku_#1.txt,d\6\d6e8759e360652d0384779a1a1f22c8df0f31cb3
+`
+0Kurs_Selenium_Python/Python_part/plik_txt_#1.txt,4\b\4b863bf18aa176c2ffe5fafaf7812c6511c66a0c
+]
+-Kurs_Selenium_Python/Python_part/pogodynka.py,0\5\0542a05cfa90ab1d2dc862128f2030e91b94c90c
+\
+,Kurs_Selenium_Python/Python_part/Python#1.py,c\a\cac069bafad4b50110e520676d199bc270c49234
+b
+2Kurs_Selenium_Python/Python_part/sprawdz_pogode.py,d\c\dc3f63deac00284fdd29f281e86c2a050a37302f
+f
+6Kurs_Selenium_Python/Python_part/zapis_do_pliku_#1.txt,2\a\2a9034428375f9a78de093262e8d0f233ebd5cdc
+\
+,Kurs_Selenium_Python/Python_part/Python#2.py,d\8\d815b688a3fd7a2f23e284d34577f786f785150f
