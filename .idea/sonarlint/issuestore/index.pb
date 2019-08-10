@@ -17,3 +17,17 @@ f
 6Kurs_Selenium_Python/Python_part/zapis_do_pliku_#1.txt,2\a\2a9034428375f9a78de093262e8d0f233ebd5cdc
 \
 ,Kurs_Selenium_Python/Python_part/Python#2.py,d\8\d815b688a3fd7a2f23e284d34577f786f785150f
+c
+3Kurs_Selenium_Python/Selenium_part/DoubleClick.html,d\a\da78d49d41af6b7e4b7fffea47677cc21d0127ca
+b
+2Kurs_Selenium_Python/Selenium_part/FileUpload.html,8\d\8df0c8ebf0b20d84267f1a60cc17b0ce93eed116
+b
+2Kurs_Selenium_Python/Selenium_part/iFrameTest.html,1\4\14b77564e3faa85349bee71b2c9ba8f83eefa63a
+\
+,Kurs_Selenium_Python/Selenium_part/Test.html,b\a\ba4afdd0ce186dfaea821eeea9349938c03cee07
+_
+/Kurs_Selenium_Python/Selenium_part/uploadMe.txt,1\9\1930445b937f4301f8c7cec6eda9c53bb88ebc3a
+]
+-Kurs_Selenium_Python/Selenium_part/Waits.html,8\3\838d02cbc9fe7c826d222ec511acdeb8929d9dd1
+^
+.Kurs_Selenium_Python/Selenium_part/Waits2.html,2\d\2df8ebb7cf131c2c38a52240c48728a7e187fa9e
