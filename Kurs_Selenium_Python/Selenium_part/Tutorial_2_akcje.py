@@ -38,5 +38,19 @@ print("Brak tekstu" + driver.find_element_by_name("fname").text)    #wyciagnieci
 print("Z tekstem: " + driver.find_element_by_name("fname").get_attribute('value'))
 
 #sprawdzenie czy obrazek wyswietla sie na stronie
+print(driver.find_element_by_id("smileImage").size.get("height"))
+print(driver.find_element_by_id("smileImage").get_attribute("naturalHeight"))    #jesli zero to sie nie wyswietla sie obrazek
 
-driver.close()
+#przelaczanie do nowo otwartego okna
+driver.find_element_by_id('newPage').click()
+print(driver.title)
+current_window_name = driver.current_window_handle
+window_names = driver.window_handles
+for window in window_names:
+    if window != current_window_name:
+        driver.switch_to.window(window)
+print(driver.title)
+driver.switch_to.window(current_window_name)
+print(driver.title)
+
+driver.quit()
